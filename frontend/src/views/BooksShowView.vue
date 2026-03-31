@@ -18,7 +18,6 @@ function formatToCOP(price: number): string {
 
   return formatter.format(price).replace(/^\s*\$\s?/, '');
 }
-
 </script>
 <template>
   <section v-if="book">
@@ -84,4 +83,3 @@ function formatToCOP(price: number): string {
     </div>
   </section>
 </template>
-
